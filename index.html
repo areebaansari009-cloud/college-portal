@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FG Degree College Hyderabad Cantt</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+        }
+
+        /* HEADER */
+        .header {
+            background-color: #032c47;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            width: 90px;
+            margin-right: 20px;
+        }
+
+        /* NAV */
+        nav {
+            background-color: #1d2731;
+            padding: 12px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #f9d342;
+            border-bottom: 2px solid #f9d342;
+        }
+
+        /* HERO */
+        .hero {
+            background:
+                linear-gradient(rgba(11, 60, 93, 0.4), rgba(11, 60, 93, 0.4)),
+                url('pictures/collegeee.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 280px 20px;
+        }
+
+        .hero button {
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-size: 16px;
+            border: none;
+            background-color: #f9d342;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero button:hover {
+            background-color: white;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 30px 40px;
+            margin: 25px 40px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #0b3c5d;
+            border-bottom: 3px solid #f9d342;
+            display: table-cell;
+            padding-bottom: 5px;
+        }
+
+        /* NOTICE */
+        marquee {
+            font-weight: bold;
+        }
+
+        /* DEPARTMENTS */
+        .dept-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .dept {
+            width: 30%;
+            background-color: #f4f6f9;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .dept:hover {
+            transform: translateY(-8px);
+            background-color: #f9d342;
+        }
+
+        /* TABLE (DOCUMENT COVERAGE) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0b3c5d;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f6f9;
+        }
+
+        /* GALLERY */
+        .gallery img { 
+            width: 45%;
+            margin: 10px 2.5%;
+            border-radius: 6px;
+            transition: 0.4s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.08);
+        }
+
+        /* CONTACT */
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        form button {
+            background-color: #0b3c5d;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #0b3c5d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        /* SCROLL TOP */
+        .top-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: #f9d342;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <img src="pictures/logo.png" alt="College Logo">
+        <div>
+            <h1>FG Degree College Hyderabad Cantt</h1>
+            <p>Affiliated with Federal Government Colleges</p>
+        </div>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero" id="home">
+        <h1>Shaping Future Leaders</h1>
+        <p>Quality Education • Discipline • Excellence</p>
+        <button onclick="location.href='#about'">Explore College</button>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            FG Degree College Hyderabad was established in 1969 as an educational initiative for people of Hyderabad to offer them quality education and opportunities for the future. For more than 70 years, FG Degree College has been providing quality education to the people of Hyderabad. FG College offers degree programs with intermediate education programs in a number of disciplines ranging from arts to science for the students of both Sindh Board and Federal Board. FG College is one of the few colleges in the Hyderabad Region providing Federal Board Education and is considered the most prestigious college in Hyderabad with the most affordable fee structures.
+
+The Faculty, Administration, and Leadership of FG College is dedicated to providing the best possible educational and extracurricular activities to the students and maintaining the learning environment for its students.
+        </p>
+    </section>
+
+    <!-- NOTICE -->
+    <section>
+        <h2>Notice Board</h2>
+        <marquee>Admissions Open 2026 • Mid Term Exams Announced • Sports Week Coming Soon</marquee>
+    </section>
+
+    <!-- DEPARTMENTS -->
+    <section id="departments">
+        <h2>Departments</h2>
+        <div class="dept-box">
+            <div class="dept">BS Computer Science</div>
+            <div class="dept">Intermediate ICT</div>
+            <div class="dept">Intermediate Pre Engineering</div>
+            <div class="dept">Intermediate Pre Medical</div>
+            <div class="dept">Intermediate Commerce</div>
+            <div class="dept">Intermediate Arts</div>
+        </div>
+    </section>
+
+    <!-- TABLE SECTION -->
+    <section id="faculty">
+        <h2>Faculty Information</h2>
+        <table>
+            <tr>
+                <th>Teacher Name</th>
+                <th>Department</th>
+                <th>Qualification</th>
+            </tr>
+            <tr>
+                <td>Sir Tulja Ram malhi</td>
+                <td>Computer Science</td>
+                <td>MS CS</td>
+            </tr>
+            <tr>
+                <td>Miss Ayesha</td>
+                <td>Biology</td>
+                <td>MSc</td>
+            </tr>
+            <tr>
+                <td>Sir Adeel</td>
+                <td>Mathematics</td>
+                <td>MPhil</td>
+            </tr>
+        </table>
+    </section>
+
+     <!-- GALLERY -->
+      
+    <section id="gallery" class="gallery">
+         <h2>Gallery</h2>
+        
+        <img src="pictures/collegeee.jpeg" alt="college gate" >
+         <img src="pictures/auditorium.png" alt="auditorium">
+        <img src="pictures/four.png"alt="entrance test"> 
+          
+        <img src="pictures/two.png" alt="Assembly">
+         
+       <img src="pictures/five.png" alt="Independance day celebration">
+        <img src="pictures/six.png" alt="Independance day celebration">
+      <img src="pictures/one.png" alt="Student's election">
+        <img src="pictures/seven.png" alt="Plant campaign">
+        <img src="pictures/bsblock.jpeg" alt="BS bsblock building">
+        <img src="pictures/bsblock2.jpeg" alt="bsblock ">
+        <img src="pictures/bsblock3.jpeg" alt="bsblock">
+        <img src="pictures/bsblock4.jpeg" alt="bsblock">
+   
+        
+    
+     
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            <b>Email:</b> info@fgcollege.edu.pk<br>
+            <b>Phone:</b> 022-0000000
+        </p>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 FG Degree College Hyderabad Cantt<br>
+        Designed by <b>Ariba Afzal</b>
+    </footer>
+
+    <a href="#home" class="top-btn">⬆</a>
+
+</body>
+</html>
